@@ -8,9 +8,10 @@ export function home() {
   container.appendChild(text2)
   container.appendChild(image)
   container.appendChild(text3) 
-
+ 
   return container
 }
+
 
 const text1 = document.createElement('p')
 text1.innerText = 'EarthBound is a SNES game'
