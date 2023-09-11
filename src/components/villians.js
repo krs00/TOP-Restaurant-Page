@@ -3,8 +3,8 @@ import { createCard } from "./card";
 export function villians() {
 
   const container = document.createElement('div')
-  container.classList.add('villians') 
-  container.id = "villians"
+  container.classList.add('content-wrapper') 
+  container.id = "content-villians"
 
   const Ant = createCard('Titanic Ant', 'Guardian of Giant Step', '', 'a picture of Ness')
   const Mole = createCard('Mondo Mole', 'Guardian of Lilliput Steps', '', 'a picture of Paula')
@@ -21,6 +21,6 @@ export function villians() {
   container.appendChild(card)
  }) 
 
-
+ 
  return container
 }

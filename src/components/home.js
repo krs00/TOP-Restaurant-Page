@@ -1,8 +1,8 @@
 export function home() {
 
   const container = document.createElement('div')
-  container.classList.add('home') 
-  container.id = "home" 
+  container.classList.add('content-wrapper') 
+  container.id = "content-home" 
  
   container.appendChild(text1)
   container.appendChild(text2)

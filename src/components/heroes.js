@@ -3,8 +3,8 @@ import { createCard } from "./card";
 export function heroes() {
 
   const container = document.createElement('div')
-  container.classList.add('heroes') 
-  container.id = "heroes"
+  container.classList.add('content-wrapper')
+  container.id = "content-heroes" 
 
   const Ness = createCard('Ness', 'A kid from Onett', '', 'a picture of Ness')
   const Paula = createCard('Paula', 'A girl from Twoson', '', 'a picture of Paula')
