@@ -23,6 +23,6 @@ const text3 = document.createElement('p')
 text3.innerText = 'It was developed by Ape Inc. and HAL Laboratory'
 
 const image = document.createElement('img')
-image.src = ''
+image.src = 'src/images/Ness_clay.png'
 image.classList.add = 'eb-img'
 
