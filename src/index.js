@@ -32,3 +32,6 @@ menuBtns.forEach((btn) => {
 
 main.appendChild(home()) 
 
+// Not going to style this it was just for practice honestly
+// Just trying to get more practice with js
+
