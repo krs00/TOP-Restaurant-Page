@@ -15,7 +15,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-}
+  padding-left: 0px;
+} 
 
 #footer {
   width: 100vw;
